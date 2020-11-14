@@ -13,6 +13,7 @@ interface IHomeProps {
 export default function Home({ recommendedProducts }: IHomeProps) {
   //FETCH: Quando não há necessidade de indexar informações para os motores de busca
   //SERVER SIDE RENDERING: Quando há informações que precisam ser indexadas pelos motores de busca
+  //STATIC SITE GENERATION: Quando temos páginas que não precisarão receber informações atualizadas frequentemente
 
   return (
     <div>
